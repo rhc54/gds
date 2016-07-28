@@ -12,6 +12,7 @@
 
 if ! GDS_EMBEDDED_MODE
 include_HEADERS = \
-        gds.h
+        gds.h \
+        gds_common.h
 
 endif ! GDS_EMBEDDED_MODE
